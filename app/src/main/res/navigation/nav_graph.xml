@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/GenerosAnime">
+
+    <fragment
+        android:id="@+id/GenerosAnime"
+        android:name="com.pabiya.generosanime.GenerosAnimeFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/generos_anime">
+
+        <action
+            android:id="@+id/action_GenerosAnimeFragment_to_SliceOfLifeFragment"
+            app:destination="@id/SliceOfLife" />
+    </fragment>
+    <fragment
+        android:id="@+id/SliceOfLife"
+        android:name="com.pabiya.generosanime.SliceOfLifeFragment"
+        android:label="@string/slice_of_life"
+        tools:layout="@layout/fragment_slice_of_life">
+        <action
+            android:id="@+id/action_SliceOfLife_to_anohanaFragment"
+            app:destination="@id/anohanaFragment" />
+        <action
+            android:id="@+id/action_SliceOfLife_to_GenerosAnime"
+            app:destination="@id/GenerosAnime" />
+        <action
+            android:id="@+id/action_SliceOfLife_to_hyoukaFragment"
+            app:destination="@id/hyoukaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/anohanaFragment"
+        android:name="com.pabiya.generosanime.sliceoflife.AnohanaFragment"
+        android:label="AnohanaFragment" >
+        <action
+            android:id="@+id/action_anohanaFragment_to_SliceOfLife"
+            app:destination="@id/SliceOfLife" />
+    </fragment>
+    <fragment
+        android:id="@+id/hyoukaFragment"
+        android:name="com.pabiya.generosanime.sliceoflife.HyoukaFragment"
+        android:label="HyoukaFragment" >
+        <action
+            android:id="@+id/action_hyoukaFragment_to_SliceOfLife"
+            app:destination="@id/SliceOfLife" />
+    </fragment>
+</navigation>
