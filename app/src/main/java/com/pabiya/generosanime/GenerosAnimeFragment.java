@@ -20,7 +20,6 @@ public class GenerosAnimeFragment extends Fragment {
             LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState
     ) {
-
         binding = GenerosAnimeBinding.inflate(inflater, container, false);
         return binding.getRoot();
 
@@ -34,6 +33,35 @@ public class GenerosAnimeFragment extends Fragment {
             public void onClick(View view) {
                 NavHostFragment.findNavController(GenerosAnimeFragment.this)
                         .navigate(R.id.action_GenerosAnimeFragment_to_SliceOfLifeFragment);
+            }
+        });
+
+        binding.accion.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(GenerosAnimeFragment.this)
+                        .navigate(R.id.action_GenerosAnime_to_accionFragment);
+            }
+        });
+        binding.romance.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(GenerosAnimeFragment.this)
+                        .navigate(R.id.action_GenerosAnime_to_romanceFragment);
+            }
+        });
+        binding.drama.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(GenerosAnimeFragment.this)
+                        .navigate(R.id.action_GenerosAnime_to_dramaFragment);
+            }
+        });
+        binding.comedia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(GenerosAnimeFragment.this)
+                        .navigate(R.id.action_GenerosAnime_to_comediaFragment);
             }
         });
 

@@ -16,5 +16,13 @@
 
     <string name="anohana_text">Anohana</string>
     <string name="hyouka_text">Hyouka</string>
+    <string name="naruto_text">Naruto</string>
+    <string name="one_punch_text">One Punch</string>
+    <string name="dr_stone_text">Dr Stone</string>
+    <string name="mob_psycho_text">Mob Psycho</string>
+    <string name="kimi_ni_todoke_text">Kimi ni Todoke</string>
+    <string name="re_zero_text">Re:Zero</string>
+    <string name="relife_text">ReLIFE</string>
+    <string name="toradora_text">Toradora</string>
 
 </resources>

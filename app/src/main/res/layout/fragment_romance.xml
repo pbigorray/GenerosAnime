@@ -16,23 +16,28 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="0dp"
-        android:layout_height="412dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/ic_anohana_foreground"
-        tools:src="@mipmap/ic_anohana_foreground" />
-
-    <TextView
-        android:id="@+id/textView6"
+    <ImageButton
+        android:id="@+id/imageToradora"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="@string/anohana_text"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="32dp"
+        android:background="#00FFFFFF"
+        android:src="@mipmap/ic_toradora_foreground"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@mipmap/ic_toradora_foreground" />
 
+    <ImageButton
+        android:id="@+id/imageRelife"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:background="#00FFFFFF"
+        android:src="@mipmap/ic_relife_foreground"
+        app:layout_constraintBottom_toBottomOf="@+id/imageToradora"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageToradora"
+        app:layout_constraintTop_toTopOf="@+id/imageToradora"
+        tools:src="@mipmap/ic_relife_foreground" />
 </androidx.constraintlayout.widget.ConstraintLayout>

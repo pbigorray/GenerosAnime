@@ -9,20 +9,20 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-
+import com.pabiya.generosanime.databinding.FragmentAccionBinding;
 import com.pabiya.generosanime.databinding.FragmentSliceOfLifeBinding;
 
-public class SliceOfLifeFragment extends Fragment {
+public class AccionFragment extends Fragment {
 
-    private FragmentSliceOfLifeBinding binding;
+    private FragmentAccionBinding binding;
 
     @Override
     public View onCreateView(
             LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState
-    ) {
+    ){
 
-        binding = FragmentSliceOfLifeBinding.inflate(inflater, container, false);
+        binding = FragmentAccionBinding.inflate(inflater, container, false);
         return binding.getRoot();
 
     }
@@ -33,24 +33,25 @@ public class SliceOfLifeFragment extends Fragment {
         binding.back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                NavHostFragment.findNavController(SliceOfLifeFragment.this)
-                        .navigate(R.id.action_SliceOfLife_to_GenerosAnime);
+                NavHostFragment.findNavController(AccionFragment.this)
+                        .navigate(R.id.action_accionFragment_to_GenerosAnime);
             }
         });
-        binding.imageAnohana.setOnClickListener(new View.OnClickListener() {
+        binding.imageOnePunch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                NavHostFragment.findNavController(SliceOfLifeFragment.this)
-                        .navigate(R.id.action_SliceOfLife_to_anohanaFragment);
+                NavHostFragment.findNavController(AccionFragment.this)
+                        .navigate(R.id.action_accionFragment_to_onePunchFragment);
             }
         });
-        binding.imageHyoka.setOnClickListener(new View.OnClickListener() {
+        binding.imageNaruto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                NavHostFragment.findNavController(SliceOfLifeFragment.this)
-                        .navigate(R.id.action_SliceOfLife_to_hyoukaFragment);
+                NavHostFragment.findNavController(AccionFragment.this)
+                        .navigate(R.id.action_accionFragment_to_narutoFragment);
             }
         });
+
     }
 
     @Override

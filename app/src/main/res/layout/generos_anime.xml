@@ -11,52 +11,62 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="32dp"
+        android:background="#00FFFFFF"
+        android:src="@mipmap/ic_anohana"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:src="@tools:sample/avatars" />
+        tools:src="@mipmap/ic_anohana" />
 
     <ImageButton
         android:id="@+id/accion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:src="@mipmap/ic_onepunch"
         app:layout_constraintBottom_toBottomOf="@+id/sliceoflife"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/sliceoflife"
         app:layout_constraintTop_toTopOf="@+id/sliceoflife"
-        tools:src="@tools:sample/avatars" />
+        tools:src="@mipmap/ic_onepunch" />
 
     <ImageButton
         android:id="@+id/drama"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
+        android:background="#00FFFFFF"
+        android:src="@mipmap/ic_rezero"
         app:layout_constraintEnd_toEndOf="@+id/sliceoflife"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/sliceoflife"
         app:layout_constraintTop_toBottomOf="@+id/sliceoflife"
-        tools:src="@tools:sample/avatars" />
+        tools:src="@mipmap/ic_rezero" />
 
     <ImageButton
         android:id="@+id/romance"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:src="@mipmap/ic_relife"
         app:layout_constraintBottom_toBottomOf="@+id/drama"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/drama"
         app:layout_constraintTop_toTopOf="@+id/drama"
-        tools:src="@tools:sample/avatars" />
+        tools:src="@mipmap/ic_relife" />
 
     <ImageButton
         android:id="@+id/comedia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
+        android:background="#00FFFFFF"
+        android:src="@mipmap/ic_drstone"
         app:layout_constraintEnd_toEndOf="@+id/drama"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/drama"
         app:layout_constraintTop_toBottomOf="@+id/drama"
-        tools:src="@tools:sample/avatars" />
+        tools:src="@mipmap/ic_drstone" />
 
     <TextView
         android:id="@+id/textView"

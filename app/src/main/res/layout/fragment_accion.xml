@@ -16,23 +16,29 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="0dp"
-        android:layout_height="412dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/ic_anohana_foreground"
-        tools:src="@mipmap/ic_anohana_foreground" />
-
-    <TextView
-        android:id="@+id/textView6"
+    <ImageButton
+        android:id="@+id/imageOnePunch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="@string/anohana_text"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="32dp"
+        android:background="#00FFFFFF"
+        android:src="@mipmap/ic_onepunch_foreground"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@mipmap/ic_onepunch_foreground" />
 
+    <ImageButton
+        android:id="@+id/imageNaruto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/naruto_text"
+        android:src="@mipmap/ic_naruto_foreground"
+        app:layout_constraintBottom_toBottomOf="@+id/imageOnePunch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageOnePunch"
+        app:layout_constraintTop_toTopOf="@+id/imageOnePunch"
+        tools:src="@mipmap/ic_naruto_foreground" />
 </androidx.constraintlayout.widget.ConstraintLayout>

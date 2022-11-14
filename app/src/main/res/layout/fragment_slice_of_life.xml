@@ -20,19 +20,23 @@
         android:id="@+id/imageAnohana"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
+        android:layout_marginStart="64dp"
         android:layout_marginTop="32dp"
+        android:background="#00FFFFFF"
+        android:src="@mipmap/ic_anohana_foreground"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:src="@tools:sample/avatars" />
+        tools:src="@mipmap/ic_anohana_foreground" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/imageHyoka"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
+        android:background="#00FFFFFF"
+        android:src="@mipmap/ic_hyouka_foreground"
         app:layout_constraintBottom_toBottomOf="@+id/imageAnohana"
         app:layout_constraintStart_toEndOf="@+id/imageAnohana"
         app:layout_constraintTop_toTopOf="@+id/imageAnohana"
-        tools:src="@tools:sample/avatars" />
+        tools:src="@mipmap/ic_hyouka_foreground" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -23,15 +23,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/ic_anohana_foreground"
-        tools:src="@mipmap/ic_anohana_foreground" />
+        app:srcCompat="@mipmap/ic_kiminitodoke_foreground"
+        tools:src="@mipmap/ic_kiminitodoke_foreground"
+        tools:srcCompat="@mipmap/ic_kiminitodoke_foreground" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="@string/anohana_text"
+        android:text="@string/kimi_ni_todoke_text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 

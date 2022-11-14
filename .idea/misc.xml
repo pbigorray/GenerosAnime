@@ -3,12 +3,40 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/anbus/Documents/Android2DAM/GenerosAnime/app/src/main/res/drawable/ic_anohana_background.xml" value="0.1685" />
+        <entry key="..\:/Users/anbus/Documents/Android2DAM/GenerosAnime/app/src/main/res/drawable/ic_drstone_background.xml" value="0.1685" />
+        <entry key="..\:/Users/anbus/Documents/Android2DAM/GenerosAnime/app/src/main/res/drawable/ic_kiminitodoke_background.xml" value="0.1685" />
+        <entry key="..\:/Users/anbus/Documents/Android2DAM/GenerosAnime/app/src/main/res/drawable/ic_mobpsycho_background.xml" value="0.1685" />
+        <entry key="..\:/Users/anbus/Documents/Android2DAM/GenerosAnime/app/src/main/res/drawable/ic_naruto_background.xml" value="0.1685" />
+        <entry key="..\:/Users/anbus/Documents/Android2DAM/GenerosAnime/app/src/main/res/drawable/ic_onepunch_background.xml" value="0.1685" />
+        <entry key="..\:/Users/anbus/Documents/Android2DAM/GenerosAnime/app/src/main/res/drawable/ic_relife_background.xml" value="0.1685" />
+        <entry key="..\:/Users/anbus/Documents/Android2DAM/GenerosAnime/app/src/main/res/drawable/onepunch.xml" value="0.1685" />
         <entry key="..\:/Users/anbus/Documents/Android2DAM/GenerosAnime/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/anbus/Documents/Android2DAM/GenerosAnime/app/src/main/res/layout/content_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/anbus/Documents/Android2DAM/GenerosAnime/app/src/main/res/layout/fragment_accion.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/anbus/Documents/Android2DAM/GenerosAnime/app/src/main/res/layout/fragment_anohana.xml" value="0.36102564102564105" />
+        <entry key="..\:/Users/anbus/Documents/Android2DAM/GenerosAnime/app/src/main/res/layout/fragment_comedia.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/anbus/Documents/Android2DAM/GenerosAnime/app/src/main/res/layout/fragment_dr_stone.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/anbus/Documents/Android2DAM/GenerosAnime/app/src/main/res/layout/fragment_drama.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/anbus/Documents/Android2DAM/GenerosAnime/app/src/main/res/layout/fragment_first.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/anbus/Documents/Android2DAM/GenerosAnime/app/src/main/res/layout/fragment_hyouka.xml" value="0.36102564102564105" />
+        <entry key="..\:/Users/anbus/Documents/Android2DAM/GenerosAnime/app/src/main/res/layout/fragment_kimi_ni_todoke.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/anbus/Documents/Android2DAM/GenerosAnime/app/src/main/res/layout/fragment_mob_psycho.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/anbus/Documents/Android2DAM/GenerosAnime/app/src/main/res/layout/fragment_naruto.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/anbus/Documents/Android2DAM/GenerosAnime/app/src/main/res/layout/fragment_one_punch.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/anbus/Documents/Android2DAM/GenerosAnime/app/src/main/res/layout/fragment_re_zero.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/anbus/Documents/Android2DAM/GenerosAnime/app/src/main/res/layout/fragment_relife.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/anbus/Documents/Android2DAM/GenerosAnime/app/src/main/res/layout/fragment_romance.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/anbus/Documents/Android2DAM/GenerosAnime/app/src/main/res/layout/fragment_second.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/anbus/Documents/Android2DAM/GenerosAnime/app/src/main/res/layout/fragment_slice_of_life.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/anbus/Documents/Android2DAM/GenerosAnime/app/src/main/res/layout/fragment_toradora.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/anbus/Documents/Android2DAM/GenerosAnime/app/src/main/res/layout/generos_anime.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/anbus/Documents/Android2DAM/GenerosAnime/app/src/main/res/mipmap-anydpi-v26/ic_anohana.xml" value="0.1685" />
+        <entry key="..\:/Users/anbus/Documents/Android2DAM/GenerosAnime/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/anbus/Documents/Android2DAM/GenerosAnime/app/src/main/res/mipmap-anydpi-v26/ic_naruto_round.xml" value="0.1685" />
+        <entry key="..\:/Users/anbus/Documents/Android2DAM/GenerosAnime/app/src/main/res/mipmap-anydpi-v26/ic_onepunch.xml" value="0.1685" />
+        <entry key="..\:/Users/anbus/Documents/Android2DAM/GenerosAnime/app/src/main/res/mipmap-anydpi-v26/ic_onepunch_round.xml" value="0.1685" />
+        <entry key="..\:/Users/anbus/Documents/Android2DAM/GenerosAnime/app/src/main/res/mipmap-anydpi-v26/ic_relife_round.xml" value="0.1685" />
       </map>
     </option>
   </component>
