@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/GenerosAnime">
+    app:startDestination="@id/loginFragment">
 
     <fragment
         android:id="@+id/GenerosAnime"
@@ -45,7 +45,8 @@
     <fragment
         android:id="@+id/anohanaFragment"
         android:name="com.pabiya.generosanime.sliceoflife.AnohanaFragment"
-        android:label="AnohanaFragment" >
+        android:label="AnohanaFragment"
+        tools:layout="@layout/fragment_anohana">
         <action
             android:id="@+id/action_anohanaFragment_to_SliceOfLife"
             app:destination="@id/SliceOfLife" />
@@ -53,7 +54,8 @@
     <fragment
         android:id="@+id/hyoukaFragment"
         android:name="com.pabiya.generosanime.sliceoflife.HyoukaFragment"
-        android:label="HyoukaFragment" >
+        android:label="HyoukaFragment"
+        tools:layout="@layout/fragment_hyouka">
         <action
             android:id="@+id/action_hyoukaFragment_to_SliceOfLife"
             app:destination="@id/SliceOfLife" />
@@ -61,7 +63,8 @@
     <fragment
         android:id="@+id/accionFragment"
         android:name="com.pabiya.generosanime.AccionFragment"
-        android:label="AccionFragment" >
+        android:label="AccionFragment"
+        tools:layout="@layout/fragment_accion">
         <action
             android:id="@+id/action_accionFragment_to_narutoFragment"
             app:destination="@id/narutoFragment" />
@@ -75,7 +78,8 @@
     <fragment
         android:id="@+id/narutoFragment"
         android:name="com.pabiya.generosanime.accion.NarutoFragment"
-        android:label="NarutoFragment" >
+        android:label="NarutoFragment"
+        tools:layout="@layout/fragment_naruto">
         <action
             android:id="@+id/action_narutoFragment_to_accionFragment"
             app:destination="@id/accionFragment" />
@@ -83,7 +87,8 @@
     <fragment
         android:id="@+id/onePunchFragment"
         android:name="com.pabiya.generosanime.accion.OnePunchFragment"
-        android:label="OnePunchFragment" >
+        android:label="OnePunchFragment"
+        tools:layout="@layout/fragment_one_punch">
         <action
             android:id="@+id/action_onePunchFragment_to_accionFragment"
             app:destination="@id/accionFragment" />
@@ -91,7 +96,8 @@
     <fragment
         android:id="@+id/comediaFragment"
         android:name="com.pabiya.generosanime.ComediaFragment"
-        android:label="ComediaFragment" >
+        android:label="ComediaFragment"
+        tools:layout="@layout/fragment_comedia">
         <action
             android:id="@+id/action_comediaFragment_to_GenerosAnime"
             app:destination="@id/GenerosAnime" />
@@ -105,7 +111,8 @@
     <fragment
         android:id="@+id/romanceFragment"
         android:name="com.pabiya.generosanime.RomanceFragment"
-        android:label="RomanceFragment" >
+        android:label="RomanceFragment"
+        tools:layout="@layout/fragment_romance">
         <action
             android:id="@+id/action_romanceFragment_to_GenerosAnime"
             app:destination="@id/GenerosAnime" />
@@ -119,7 +126,8 @@
     <fragment
         android:id="@+id/dramaFragment"
         android:name="com.pabiya.generosanime.DramaFragment"
-        android:label="DramaFragment" >
+        android:label="DramaFragment"
+        tools:layout="@layout/fragment_drama">
         <action
             android:id="@+id/action_dramaFragment_to_GenerosAnime"
             app:destination="@id/GenerosAnime" />
@@ -133,7 +141,8 @@
     <fragment
         android:id="@+id/drStoneFragment"
         android:name="com.pabiya.generosanime.comedia.DrStoneFragment"
-        android:label="DrStoneFragment" >
+        android:label="DrStoneFragment"
+        tools:layout="@layout/fragment_dr_stone">
         <action
             android:id="@+id/action_drStoneFragment_to_comediaFragment"
             app:destination="@id/comediaFragment" />
@@ -141,7 +150,8 @@
     <fragment
         android:id="@+id/mobPsychoFragment"
         android:name="com.pabiya.generosanime.comedia.MobPsychoFragment"
-        android:label="MobPsychoFragment" >
+        android:label="MobPsychoFragment"
+        tools:layout="@layout/fragment_mob_psycho">
         <action
             android:id="@+id/action_mobPsychoFragment_to_comediaFragment"
             app:destination="@id/comediaFragment" />
@@ -149,7 +159,8 @@
     <fragment
         android:id="@+id/reZeroFragment"
         android:name="com.pabiya.generosanime.drama.ReZeroFragment"
-        android:label="ReZeroFragment" >
+        android:label="ReZeroFragment"
+        tools:layout="@layout/fragment_re_zero">
         <action
             android:id="@+id/action_reZeroFragment_to_dramaFragment"
             app:destination="@id/dramaFragment" />
@@ -157,7 +168,8 @@
     <fragment
         android:id="@+id/kimiNiTodokeFragment"
         android:name="com.pabiya.generosanime.drama.KimiNiTodokeFragment"
-        android:label="KimiNiTodokeFragment" >
+        android:label="KimiNiTodokeFragment"
+        tools:layout="@layout/fragment_kimi_ni_todoke">
         <action
             android:id="@+id/action_kimiNiTodokeFragment_to_dramaFragment"
             app:destination="@id/dramaFragment" />
@@ -165,7 +177,8 @@
     <fragment
         android:id="@+id/relifeFragment"
         android:name="com.pabiya.generosanime.romance.RelifeFragment"
-        android:label="RelifeFragment" >
+        android:label="RelifeFragment"
+        tools:layout="@layout/fragment_relife">
         <action
             android:id="@+id/action_relifeFragment_to_romanceFragment"
             app:destination="@id/romanceFragment" />
@@ -173,9 +186,19 @@
     <fragment
         android:id="@+id/toradoraFragment"
         android:name="com.pabiya.generosanime.romance.ToradoraFragment"
-        android:label="ToradoraFragment" >
+        android:label="ToradoraFragment"
+        tools:layout="@layout/fragment_toradora">
         <action
             android:id="@+id/action_toradoraFragment_to_romanceFragment"
             app:destination="@id/romanceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.pabiya.generosanime.LoginFragment"
+        android:label="LoginFragment"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_GenerosAnime"
+            app:destination="@id/GenerosAnime" />
     </fragment>
 </navigation>

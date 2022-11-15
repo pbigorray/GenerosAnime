@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentResultListener;
 import androidx.navigation.fragment.NavHostFragment;
 
 import com.pabiya.generosanime.databinding.GenerosAnimeBinding;
@@ -21,8 +22,14 @@ public class GenerosAnimeFragment extends Fragment {
             Bundle savedInstanceState
     ) {
         binding = GenerosAnimeBinding.inflate(inflater, container, false);
+        getParentFragmentManager().setFragmentResultListener("login", this, new FragmentResultListener() {
+            @Override
+            public void onFragmentResult(@NonNull String requestKey, @NonNull Bundle result) {
+                String text= result.getString("user");
+                binding.username.setText(text);
+            }
+        });
         return binding.getRoot();
-
     }
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
