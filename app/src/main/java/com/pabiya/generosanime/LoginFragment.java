@@ -26,6 +26,7 @@ public class LoginFragment extends Fragment {
 
     }
 
+    String usuario="pau",pass="1234";
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
@@ -33,12 +34,16 @@ public class LoginFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 if (binding.user.length()!=0 &&binding.password.length()!=0){
-                    Bundle bundle = new Bundle();
-                    bundle.putString("user",binding.user.getText().toString());
-                    getParentFragmentManager().setFragmentResult("login",bundle);
+                    if (binding.user.getText().toString().equals(usuario)
+                            && binding.password.getText().toString().equals(pass)){
+                        Bundle bundle = new Bundle();
+                        bundle.putString("user",binding.user.getText().toString());
+                        getParentFragmentManager().setFragmentResult("login",bundle);
 
-                    NavHostFragment.findNavController(LoginFragment.this)
-                            .navigate(R.id.action_loginFragment_to_GenerosAnime);
+                        NavHostFragment.findNavController(LoginFragment.this)
+                                .navigate(R.id.action_loginFragment_to_GenerosAnime);
+                    }
+
                 }
             }
         });
